@@ -3,26 +3,7 @@ import {createSlice, PayloadAction} from "@reduxjs/toolkit";
 import {Filter} from "../contract/enums";
 
 const initialState: ITodoStoreData = {
-    todos: [
-        {
-            id: 1,
-            title: "task 1",
-            description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-            status: false
-        },
-        {
-            id: 2,
-            title: "task 2",
-            description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-            status: false
-        },
-        {
-            id: 3,
-            title: "task 3",
-            description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-            status: false
-        },
-    ],
+    todos: [],
     filter: Filter.ALL
 }
 
