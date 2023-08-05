@@ -40,7 +40,7 @@ const MyContent: FC = () => {
                                 key={index}
                                 sx={{'&:last-child td, &:last-child th': {border: 0}}}
                             >
-                                <TableCell align="center" className={"cursor-pointer"}><AppsOutlinedIcon fontSize={"small"} /></TableCell>
+                                <TableCell align="center" className={"w-24 cursor-pointer"}><AppsOutlinedIcon fontSize={"small"} /></TableCell>
                                 <TableCell component="th" scope="row">
                                     <div className={"flex flex-row items-center"}>
                                         <MyRadio isChecked={todo?.status} handlerClick={() => handlerTaskStatus(todo.id)}/>
